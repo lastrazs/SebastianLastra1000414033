@@ -20,3 +20,5 @@ if __name__ == "__main__":
     print("¡Hola desde Python CI/CD!")
     print(f"2 + 3 = {suma(2, 3)}")
     print(f"5 - 1 = {resta(5, 1)}")
+    print(f"4 * 6 = {multiplicacion(4, 6)}")
+    print(f"8 / 2 = {division(8, 2)}")
