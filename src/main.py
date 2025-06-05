@@ -10,6 +10,12 @@ def multiplicacion(a, b):
     "FUNCION QUE MULTIPLICA DOS NÚMEROS"
     return a * b
 
+def division(a, b):
+    "Función que divide dos números"
+    if b == 0:
+        raise ValueError("No se puede dividir por cero")
+    return a / b
+
 if __name__ == "__main__":
     print("¡Hola desde Python CI/CD!")
     print(f"2 + 3 = {suma(2, 3)}")
